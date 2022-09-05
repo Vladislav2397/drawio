@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T07:48:24.913Z" agent="5.0 (X11)" etag="ifCqp5WvQbvWXxFZWMXK" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T07:49:07.589Z" agent="5.0 (X11)" etag="Y_DbVwWJ4sYwPbxa-otR" version="20.2.8" type="github" pages="2">
   <diagram id="DBqcl2WHQ5JJ5LOvQLCu" name="Page-1">
     <mxGraphModel dx="1422" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -433,7 +433,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-32" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;CartService&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ get(): Equipment[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ add(Equipment): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ remove(Equipment): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ contains(Equipment): boolean&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="600" width="280" height="160" as="geometry" />
+          <mxGeometry x="40" y="600" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-33" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=14;" vertex="1" parent="AmIQeh5oc85IUx_p7lZX-32">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
