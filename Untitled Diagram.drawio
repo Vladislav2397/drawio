@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:41:03.621Z" agent="5.0 (X11)" etag="XSwyxIKInwyAlxWfAz2I" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:42:42.496Z" agent="5.0 (X11)" etag="q7Qxk-q82y6ocAgJ7lMj" version="20.2.8" type="github" pages="2">
   <diagram id="DBqcl2WHQ5JJ5LOvQLCu" name="Page-1">
     <mxGraphModel dx="1422" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -367,8 +367,14 @@
             <mxPoint x="500" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AmIQeh5oc85IUx_p7lZX-15" value="Equipment" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="240" width="160" height="80" as="geometry" />
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-15" value="EquipmentService" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-16" value="&lt;div&gt;Provide&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=14;" edge="1" parent="1" source="AmIQeh5oc85IUx_p7lZX-5" target="AmIQeh5oc85IUx_p7lZX-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
