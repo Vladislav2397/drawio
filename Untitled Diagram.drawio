@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T07:39:48.374Z" agent="5.0 (X11)" etag="dEbxg64ZyIHGhy7HsflO" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T07:48:24.913Z" agent="5.0 (X11)" etag="ifCqp5WvQbvWXxFZWMXK" version="20.2.8" type="github" pages="2">
   <diagram id="DBqcl2WHQ5JJ5LOvQLCu" name="Page-1">
     <mxGraphModel dx="1422" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,7 +368,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-15" value="EquipmentService" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="230" width="160" height="50" as="geometry" />
+          <mxGeometry x="40" y="190" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-16" value="&lt;div&gt;Provide&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=14;" edge="1" parent="1" source="AmIQeh5oc85IUx_p7lZX-5" target="AmIQeh5oc85IUx_p7lZX-15">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -380,16 +380,22 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="340" y="260" as="sourcePoint" />
             <mxPoint x="500" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="200" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-18" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="AmIQeh5oc85IUx_p7lZX-15" target="AmIQeh5oc85IUx_p7lZX-9">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="400" y="265" as="sourcePoint" />
             <mxPoint x="520" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="230" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-19" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;EquipmentService&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ createPromotion(): PromotionCard&lt;br&gt;+ createStock(): StockCard&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="320" width="280" height="90" as="geometry" />
+          <mxGeometry x="40" y="440" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-20" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=14;" vertex="1" parent="AmIQeh5oc85IUx_p7lZX-19">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -397,12 +403,50 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-21" value="RootStore | StoreModule" style="html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="200" height="40" as="geometry" />
+          <mxGeometry x="440" y="440" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AmIQeh5oc85IUx_p7lZX-23" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=14;" edge="1" parent="1" source="AmIQeh5oc85IUx_p7lZX-19" target="AmIQeh5oc85IUx_p7lZX-21">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="360" y="440" as="sourcePoint" />
             <mxPoint x="520" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-25" value="CartService" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-26" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="AmIQeh5oc85IUx_p7lZX-25" target="AmIQeh5oc85IUx_p7lZX-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="295" as="sourcePoint" />
+            <mxPoint x="520" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-27" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontSize=14;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="AmIQeh5oc85IUx_p7lZX-25" target="AmIQeh5oc85IUx_p7lZX-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+            <mxPoint x="380" y="175" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-32" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;CartService&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ get(): Equipment[]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ add(Equipment): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ remove(Equipment): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ contains(Equipment): boolean&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-33" value="" style="shape=component;jettyWidth=8;jettyHeight=4;fontSize=14;" vertex="1" parent="AmIQeh5oc85IUx_p7lZX-32">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-34" value="RootStore | StoreModule" style="html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AmIQeh5oc85IUx_p7lZX-35" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=14;" edge="1" parent="1" source="AmIQeh5oc85IUx_p7lZX-32" target="AmIQeh5oc85IUx_p7lZX-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="600" as="sourcePoint" />
+            <mxPoint x="520" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
